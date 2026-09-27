@@ -1,0 +1,19 @@
+address,role,confidence,first_observed_context,note
+0x09CfEe647fA339133380191C8DB6b44F24500c9D,operator_or_gas_wallet,high,2026-04,Creates/funds multiple poisoning-related contracts and EIP-7702 accounts
+0xBD114DD6A8a8260fCf9632e537E69b9C0b83F9EB,treasury_or_consolidation,high,2026-05-28,Receives proceeds from multiple poison addresses and recycles funds into infrastructure
+0x3d9846705612c2db47edf659c48034c752F0da99,poisoning_infrastructure,high,2026,Operator-linked batch/dust provisioning
+0x41cC011e768b2859F2aba42551762A2a17B26Fed,poisoning_infrastructure,high,2026,Real-token dust poisoning infrastructure
+0x77B85AfBcD336993AC1c65057531c5A5B33b76b8,poisoning_infrastructure,high,2026-07-17,BatchTransferStorageDelegation contract created by operator
+0x0Ca8E8d976dF3321F6ff0A8CCa96536a51565c81,poisoning_infrastructure,high,2026-08-21,Later real-token poisoning system
+0x6D362D2F7f7e8ed494B0eeeB473Abb3728D12c17,eip7702_implementation,high,2026-08-21,Implementation reused by later authorization-list activity
+0x284336EF3282B012bd1518Fe3D38042DFe87116a,poison_address_case_1,high,2026-05,Receives 4.9849703145 ETH from source and forwards to treasury
+0xD2b665c4Ea3239224Fd5389e6baB6031829005C3,poison_address_case_2,high,2026-07,Receives 2959.486930 real USDT and consolidates after swap
+0x51D3a8FA041aCfBFc5f425ee7265A9D83e33e390,poison_address_case_3,high,2026-07,Receives 1390 real USDC and consolidates after swap
+0x3428AB1cDb2a578B0685957AED9C29fd17AEB170,poison_address_case_4,high,2026-07,Receives 1450 real USDT and consolidates after swap
+0x53BB6CA3997261073A73C8830Ca21522b4786c37,bootstrap_wallet,medium_high,2026-03,Receives Tornado 0.1 ETH pool withdrawals and funds older attack infrastructure
+0x7a4991E10e45c7AcC5d7720815cF314102A4DDdE,bootstrap_or_attack_infrastructure,medium_high,2026-03,Funded by bootstrap wallet and performs batch-transfer activity
+0x2c398E949dbB20cc397AeaFd6Ae9ce1155EAe26b,older_attack_infrastructure,high,2026-03,Phishing-tagged EIP-7702 account funded by bootstrap wallet
+0x61077f362c0FA529f60729AAc4611A34206D7129,early_funding_wallet,medium_high,2026-03,Funds operator and interacts with swap infrastructure
+0x12D66f87A04A9E220743712cE6d9bB1B5616B8Fc,tornado_cash_0_1_eth_pool,service,2026-03,Public protocol contract; not attributed to attacker
+0x881D40237659C251811CEC9c364ef91dC08D300C,metamask_swap_router,service,2026,DEX aggregation infrastructure; not attributed to attacker
+0x28b1Dc1a5E3699A428BC51d234DFab7C9CB2a183,swap_router,service,2026,DEX routing contract used in swaps; not attributed to attacker
